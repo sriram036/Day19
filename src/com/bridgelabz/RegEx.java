@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class RegEx {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("\nEnter First Name :");
+        System.out.print("\nEnter Last Name :");
         String string = scanner.next();
         Pattern pattern = Pattern.compile("^[A-Z]{1}[a-z]{2,}$");
         Matcher matcher = pattern.matcher(string);
